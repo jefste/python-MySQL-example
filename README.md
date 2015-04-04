@@ -48,4 +48,11 @@ python first_example.py
 ```
 
 
+Creating and populating a table
+===============================
+Creates a table called 'Writers' and adds 5 entries.
+``` 
+python create_and_populate_table.py 
+```
+
 
