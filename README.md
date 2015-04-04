@@ -55,4 +55,15 @@ Creates a table called 'Writers' and adds 5 entries.
 python create_and_populate_table.py 
 ```
 
+Retrieving Data
+===============
+The first example grabs the data using the fetchall() command, which could be time consuming if the data set is huge.
+```
+python retrieve_data_from_db.py
+```
+
+The second example grabs the data one row at a time using the fetchone() command.
+```
+python retrieve_rows_one_by_one.py
+```
 
