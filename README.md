@@ -28,3 +28,24 @@ mysql> USE testdb;
 mysql> GRANT ALL ON testdb.* TO 'testuser'@'localhost';
 mysql> quit;
 ```
+
+_mysql module
+=============
+From the tutorial:
+"The _mysql module implements the MySQL C API directly. It is not compatible with the Python DB API interface. Generally, the programmers prefer the object oriented MySQLdb module. We will concern ourself with the latter module. Here we present only one small example with the _mysql module."
+
+This runs the script that connects to the db, gets the version, prints the version, then closes the connection.
+
+``` 
+python _MySQLModuleExample.py 
+```
+
+MySQLdb module
+==============
+This is similar to the above script, but uses the python db API, which is the preferred method of working with db using python as the code is more portable.
+``` 
+python first_example.py 
+```
+
+
+
