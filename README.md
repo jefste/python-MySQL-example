@@ -82,3 +82,14 @@ Prints the column headers using the .description operator.
 ```
 python retrieve_column_headers.py
 ```
+
+Prepared Statements
+===================
+
+Example of a prepared statement, using the ANSI print codes as that is what supported by the MySQLdb.
+
+```
+python prepared_statements.py
+```
+
+
