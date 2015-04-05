@@ -67,3 +67,12 @@ The second example grabs the data one row at a time using the fetchone() command
 python retrieve_rows_one_by_one.py
 ```
 
+Using the dictionary cursor
+===========================
+The default cursor returns data as a tuple of tuples, but the DictCursor can be used and the data is sent in the form of python dictionaries.
+
+```
+python retrieve_rows_using_dictionary_cursor.py
+```
+
+
