@@ -99,4 +99,9 @@ Example of putting images into database.
 python insert_images.py
 ```
 
-
+Reading Images
+==============
+Example of reading an image from a database
+```
+python reading_image.py
+```
