@@ -75,4 +75,10 @@ The default cursor returns data as a tuple of tuples, but the DictCursor can be 
 python retrieve_rows_using_dictionary_cursor.py
 ```
 
+Printing column headers
+=======================
 
+Prints the column headers using the .description operator.
+```
+python retrieve_column_headers.py
+```
