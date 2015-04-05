@@ -92,4 +92,11 @@ Example of a prepared statement, using the ANSI print codes as that is what supp
 python prepared_statements.py
 ```
 
+Inserting Images
+================
+Example of putting images into database.
+```
+python insert_images.py
+```
+
 
